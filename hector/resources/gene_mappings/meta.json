@@ -1,0 +1,20 @@
+{
+  "human": {
+    "built": "2026-05-28",
+    "gtf_filename": "genes.gtf",
+    "model_checkpoint_sha256": "df364c59db844db9e987babb22b11ddcc633e1079e9398397a5fa0f9412bb368",
+    "model_filename": "human.h5",
+    "n_genes_reference": 5000,
+    "n_genes_total": 38607,
+    "reference_label": "refdata-gex-GRCh38-2024-A"
+  },
+  "mouse": {
+    "built": "2026-05-28",
+    "gtf_filename": "genes.gtf",
+    "model_checkpoint_sha256": "2caf4c22605781b316beee0e1360971d36a3411d2d22d723bcac04b2a272406d",
+    "model_filename": "Mouse.h5",
+    "n_genes_reference": 5000,
+    "n_genes_total": 33730,
+    "reference_label": "refdata-gex-GRCm39-2024-A"
+  }
+}

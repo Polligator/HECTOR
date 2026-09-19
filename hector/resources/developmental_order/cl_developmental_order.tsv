@@ -1,0 +1,421 @@
+earlier	later	earlier_name	later_name	relation
+CL:0000961	CL:0000962	Bm1 B cell	Bm2 B cell	develops from
+CL:0000962	CL:0000964	Bm2 B cell	Bm2' B cell	develops from
+CL:0000964	CL:0000965	Bm2' B cell	Bm3 B cell	develops from
+CL:0000965	CL:0000963	Bm3 B cell	Bm3-delta B cell	develops from
+CL:0000963	CL:0000966	Bm3-delta B cell	Bm4 B cell	develops from
+CL:0000966	CL:0000967	Bm4 B cell	Bm5 B cell	develops from
+CL:0002397	CL:0002396	CD14-positive, CD16-positive monocyte	CD14-low, CD16-positive monocyte	develops from
+CL:0002053	CL:0002055	CD22-positive, CD38-low small pre-B cell	CD38-negative immature B cell	develops from
+CL:0002432	CL:0002436	CD24-positive, CD4 single-positive thymocyte	mature CD4 single-positive thymocyte	develops from
+CL:0002434	CL:0002437	CD24-positive, CD8 single-positive thymocyte	mature CD8 single-positive thymocyte	develops from
+CL:0002126	CL:0002125	CD25-positive, CD27-positive immature gamma-delta T cell	CD27-negative gamma-delta T cell	develops from
+CL:0002126	CL:0002124	CD25-positive, CD27-positive immature gamma-delta T cell	CD27-positive gamma-delta T cell	develops from
+CL:0002347	CL:0002348	CD27-high, CD11b-high natural killer cell, mouse	CD27-low, CD11b-high natural killer cell, mouse	develops from
+CL:0002349	CL:0002347	CD27-high, CD11b-low natural killer cell, mouse	CD27-high, CD11b-high natural killer cell, mouse	develops from
+CL:0002345	CL:0002349	CD27-low, CD11b-low immature natural killer cell, mouse	CD27-high, CD11b-low natural killer cell, mouse	develops from
+CL:0002004	CL:0002013	CD34-negative, GlyA-negative proerythroblast	GlyA-positive basophilic erythroblast	develops from
+CL:0001024	CL:0002043	CD34-positive, CD38-negative hematopoietic stem cell	CD34-positive, CD38-negative multipotent progenitor cell	develops from
+CL:0002043	CL:0001021	CD34-positive, CD38-negative multipotent progenitor cell	CD34-positive, CD38-positive common lymphoid progenitor	develops from
+CL:0002043	CL:0001026	CD34-positive, CD38-negative multipotent progenitor cell	CD34-positive, CD38-positive common myeloid progenitor	develops from
+CL:0001021	CL:0001027	CD34-positive, CD38-positive common lymphoid progenitor	CD7-negative lymphoid progenitor cell	develops from
+CL:0001026	CL:0002001	CD34-positive, CD38-positive common myeloid progenitor	CD34-positive, CD38-positive granulocyte monocyte progenitor	develops from
+CL:0000995	CL:0000994	CD34-positive, CD38-positive common myeloid progenitor OR CD34-positive, CD38-positive common lymphoid progenitor	immature CD11c-negative plasmacytoid dendritic cell	develops from
+CL:0002001	CL:0001022	CD34-positive, CD38-positive granulocyte monocyte progenitor	CD115-positive monocyte	develops from
+CL:0002001	CL:0002008	CD34-positive, CD38-positive granulocyte monocyte progenitor	CD34-positive, CD38-positive eosinophil progenitor cell	develops from
+CL:0002005	CL:0002025	CD34-positive, CD38-positive megakaryocyte erythroid progenitor cell	CD34-positive, CD41-positive, CD42-negative megakaryocyte progenitor cell	develops from
+CL:0002005	CL:0002003	CD34-positive, CD38-positive megakaryocyte erythroid progenitor cell	CD34-positive, GlyA-negative erythroid progenitor cell	develops from
+CL:0002025	CL:0002023	CD34-positive, CD41-positive, CD42-negative megakaryocyte progenitor cell	CD34-positive, CD41-positive, CD42-positive megakaryocyte progenitor cell	develops from
+CL:0002023	CL:0002026	CD34-positive, CD41-positive, CD42-positive megakaryocyte progenitor cell	CD34-negative, CD41-positive, CD42-positive megakaryocyte cell	develops from
+CL:0001074	CL:0001072	CD34-positive, CD56-positive, CD117-positive common innate lymphoid precursor, human	CD34-negative, CD117-positive innate lymphoid cell, human	develops from
+CL:0002003	CL:0002004	CD34-positive, GlyA-negative erythroid progenitor cell	CD34-negative, GlyA-negative proerythroblast	develops from
+CL:0002051	CL:0002053	CD38-high pre-BCR positive cell	CD22-positive, CD38-low small pre-B cell	develops from
+CL:0002430	CL:0002435	CD4-intermediate, CD8-positive double-positive thymocyte	CD69-positive, CD8-positive single-positive thymocyte	develops from
+CL:0000924	CL:0000928	CD4-negative, CD8-negative type I NK T cell	activated CD4-negative, CD8-negative type I NK T cell	develops from
+CL:0000923	CL:0000925	CD4-positive type I NK T cell	activated CD4-positive type I NK T cell	develops from
+CL:0002431	CL:0002433	CD4-positive, CD8-intermediate double-positive thymocyte	CD69-positive, CD4-positive single-positive thymocyte	develops from
+CL:0000810	CL:0000793	CD4-positive, alpha-beta thymocyte	CD4-positive, alpha-beta intraepithelial T cell	develops from
+CL:0002344	CL:0002338	CD56-negative, CD161-positive immature natural killer cell, human	CD56-positive, CD161-positive immature natural killer cell, human	develops from
+CL:0002429	CL:0002430	CD69-positive double-positive thymocyte	CD4-intermediate, CD8-positive double-positive thymocyte	develops from
+CL:0002429	CL:0002431	CD69-positive double-positive thymocyte	CD4-positive, CD8-intermediate double-positive thymocyte	develops from
+CL:0002433	CL:0002432	CD69-positive, CD4-positive single-positive thymocyte	CD24-positive, CD4 single-positive thymocyte	develops from
+CL:0002435	CL:0002434	CD69-positive, CD8-positive single-positive thymocyte	CD24-positive, CD8 single-positive thymocyte	develops from
+CL:0001027	CL:0001028	CD7-negative lymphoid progenitor cell	CD7-positive lymphoid progenitor cell	develops from
+CL:0002016	CL:0002018	CD71-low, GlyA-positive polychromatic erythroblast	CD71-negative, GlyA-positive orthochromatic erythroblast	develops from
+CL:0002018	CL:0002020	CD71-negative, GlyA-positive orthochromatic erythroblast	GlyA-positive reticulocytes	develops from
+CL:0000811	CL:0000915	CD8-positive, alpha-beta thymocyte	CD8-alpha-alpha-positive, alpha-beta intraepithelial T cell	develops from
+CL:0000894	CL:0000806	DN1 thymic pro-T cell	DN2 thymocyte	develops from
+CL:0000894	CL:0000941	DN1 thymic pro-T cell	thymic conventional dendritic cell	develops from
+CL:0000894	CL:0000942	DN1 thymic pro-T cell	thymic plasmacytoid dendritic cell	develops from
+CL:0000806	CL:0000807	DN2 thymocyte	DN3 thymocyte	develops from
+CL:0002423	CL:0002424	DN2a thymocyte	DN2b thymocyte	develops from
+CL:0000807	CL:0000808	DN3 thymocyte	DN4 thymocyte	develops from
+CL:0000807	CL:0000799	DN3 thymocyte	immature gamma-delta T cell	develops from
+CL:0000808	CL:0000805	DN4 thymocyte	immature single positive thymocyte	develops from
+CL:0002346	CL:0002345	Dx5-negative, NK1.1-positive immature natural killer cell, mouse	CD27-low, CD11b-low immature natural killer cell, mouse	develops from
+CL:0002013	CL:0002016	GlyA-positive basophilic erythroblast	CD71-low, GlyA-positive polychromatic erythroblast	develops from
+CL:0002020	CL:0002021	GlyA-positive reticulocytes	GlyA-positive erythrocyte	develops from
+CL:0002395	CL:0002398	Gr1-high classical monocyte	Gr1-positive, CD43-positive monocyte	develops from
+CL:0002398	CL:0002058	Gr1-positive, CD43-positive monocyte	Gr1-low non-classical monocyte	develops from
+CL:0002012	CL:0002014	Kit-low proerythroblast	Kit-negative, Ly-76 high basophilic erythroblast	develops from
+CL:0002014	CL:0002015	Kit-negative, Ly-76 high basophilic erythroblast	Kit-negative, Ly-76 high polychromatophilic erythroblast	develops from
+CL:0002017	CL:0002019	Kit-negative, Ly-76 high orthochromatophilic erythroblasts	Ly-76 high reticulocyte	develops from
+CL:0002015	CL:0002017	Kit-negative, Ly-76 high polychromatophilic erythroblast	Kit-negative, Ly-76 high orthochromatophilic erythroblasts	develops from
+CL:0002000	CL:0002012	Kit-positive erythroid progenitor cell	Kit-low proerythroblast	develops from
+CL:0002002	CL:0002007	Kit-positive granulocyte monocyte progenitor	Kit-low, CD34-positive eosinophil progenitor cell	develops from
+CL:0002002	CL:0002011	Kit-positive granulocyte monocyte progenitor	Kit-positive macrophage dendritic cell progenitor	develops from
+CL:0002024	CL:0002027	Kit-positive megakaryocyte progenitor cell	CD9-positive, CD41-positive megakaryocyte cell	develops from
+CL:0002006	CL:0002000	Kit-positive, CD34-negative megakaryocyte erythroid progenitor cell	Kit-positive erythroid progenitor cell	develops from
+CL:0002006	CL:0002024	Kit-positive, CD34-negative megakaryocyte erythroid progenitor cell	Kit-positive megakaryocyte progenitor cell	develops from
+CL:0001023	CL:0002002	Kit-positive, CD34-positive common myeloid progenitor	Kit-positive granulocyte monocyte progenitor	develops from
+CL:0002044	CL:0002030	Kit-positive, integrin beta7-high basophil mast progenitor cell	Fc-epsilon RIalpha-high basophil progenitor cell	develops from
+CL:0002044	CL:0002029	Kit-positive, integrin beta7-high basophil mast progenitor cell	Fc-epsilon RIalpha-low mast cell progenitor	develops from
+CL:0009091	CL:0000178	Leydig stem cell	Leydig cell	develops from
+CL:0002019	CL:0002022	Ly-76 high reticulocyte	Ly-76 high positive erythrocyte	develops from
+CL:0020017	CL:0000863	M0 macrophage	M1 macrophage	develops from
+CL:0020017	CL:0000890	M0 macrophage	M2 macrophage	develops from
+CL:0002375	CL:0002377	Schwann cell precursor	immature Schwann cell	develops from
+CL:0002035	CL:0001023	Slamf1-negative multipotent progenitor cell	Kit-positive, CD34-positive common myeloid progenitor	develops from
+CL:0002035	CL:0000936	Slamf1-negative multipotent progenitor cell	early lymphoid progenitor	develops from
+CL:0002036	CL:0002035	Slamf1-positive multipotent progenitor cell	Slamf1-negative multipotent progenitor cell	develops from
+CL:0000958	CL:0000959	T1 B cell	T2 B cell	develops from
+CL:0000959	CL:0000960	T2 B cell	T3 B cell	develops from
+CL:0000928	CL:0000929	activated CD4-negative, CD8-negative type I NK T cell	CD4-negative, CD8-negative type I NK T cell secreting interferon-gamma	develops from
+CL:0000928	CL:0000930	activated CD4-negative, CD8-negative type I NK T cell	CD4-negative, CD8-negative type I NK T cell secreting interleukin-4	develops from
+CL:0000925	CL:0000926	activated CD4-positive type I NK T cell	CD4-positive type I NK T cell secreting interferon-gamma	develops from
+CL:0000925	CL:0000927	activated CD4-positive type I NK T cell	CD4-positive type I NK T cell secreting interleukin-4	develops from
+CL:0000896	CL:0000492	activated CD4-positive, alpha-beta T cell	CD4-positive helper T cell	develops from
+CL:0000896	CL:0000934	activated CD4-positive, alpha-beta T cell	CD4-positive, alpha-beta cytotoxic T cell	develops from
+CL:0000896	CL:0001204	activated CD4-positive, alpha-beta T cell	CD4-positive, alpha-beta memory T cell, CD45RO-positive	develops from
+CL:0000896	CL:0000902	activated CD4-positive, alpha-beta T cell	induced T-regulatory cell	develops from
+CL:0000906	CL:0000919	activated CD8-positive, alpha-beta T cell	CD8-positive, CD25-positive, alpha-beta regulatory T cell	develops from
+CL:0000906	CL:0000920	activated CD8-positive, alpha-beta T cell	CD8-positive, CD28-negative, alpha-beta regulatory T cell	develops from
+CL:0000906	CL:0000908	activated CD8-positive, alpha-beta T cell	CD8-positive, alpha-beta cytokine secreting effector T cell	develops from
+CL:0000906	CL:0000794	activated CD8-positive, alpha-beta T cell	CD8-positive, alpha-beta cytotoxic T cell	develops from
+CL:0000906	CL:0001203	activated CD8-positive, alpha-beta T cell	CD8-positive, alpha-beta memory T cell, CD45RO-positive	develops from
+CL:0000931	CL:0000932	activated type II NK T cell	type II NK T cell secreting interferon-gamma	develops from
+CL:0000931	CL:0000933	activated type II NK T cell	type II NK T cell secreting interleukin-4	develops from
+CL:0008017	CL:0008002	adult skeletal muscle myoblast	skeletal muscle fiber	develops into
+CL:0000566	CL:0000037	angioblastic mesenchymal cell	hematopoietic stem cell	develops from
+CL:0002223	CL:0002228	anterior lens cell	primary lens fiber	develops from
+CL:4042022	CL:0000127	astrocyte-restricted precursor	astrocyte	develops into
+CL:0000770	CL:0000043	band form basophil	mature basophil	develops from
+CL:0000774	CL:0000041	band form eosinophil	mature eosinophil	develops from
+CL:0002028	CL:0000613	basophil mast progenitor cell	basophil progenitor cell	develops from
+CL:0002028	CL:0000831	basophil mast progenitor cell	mast cell progenitor	develops from
+CL:0000613	CL:0000829	basophil progenitor cell	basophilic myeloblast	develops from
+CL:0000549	CL:0000550	basophilic erythroblast	polychromatophilic erythroblast	develops from
+CL:0000769	CL:0000770	basophilic metamyelocyte	band form basophil	develops from
+CL:0000829	CL:0000830	basophilic myeloblast	basophilic promyelocyte	develops from
+CL:0000614	CL:0000769	basophilic myelocyte	basophilic metamyelocyte	develops from
+CL:0000830	CL:0000768	basophilic promyelocyte	immature basophil	develops from
+CL:0002335	CL:0000449	brown preadipocyte	brown adipocyte	develops from
+CL:0000569	CL:0002494	cardiac mesenchymal cell	cardiocyte	develops into
+CL:0000513	CL:0000746	cardiac muscle myoblast	cardiac muscle cell	develops from
+CL:0010021	CL:0000746	cardiac myoblast	cardiac muscle cell	develops into
+CL:0000465	CL:0000193	cardioblast (sensu Arthropoda)	cardiac muscle cell (sensu Arthopoda)	develops from
+CL:0000061	CL:0000141	cementoblast	cementocyte	develops from
+CL:0002362	CL:0001031	cerebellar granule cell precursor	cerebellar granule cell	directly develops from
+CL:0000058	CL:0000138	chondroblast	chondrocyte	develops from
+CL:0007006	CL:0007005	chordamesodermal cell	notochordal cell	develops from
+CL:0000135	CL:1000693	circulating fibrocyte	kidney interstitial fibrocyte	develops from
+CL:0000860	CL:0000861	classical monocyte	elicited macrophage	develops from
+CL:0000860	CL:0002393	classical monocyte	intermediate monocyte	develops from
+CL:0000860	CL:4072015	classical monocyte	monocyte-derived Kupffer cell	develops from
+CL:4023059	CL:4072001	committed oligodendrocyte precursor	newly formed oligodendrocyte	directly develops from
+CL:0001029	CL:0000992	common dendritic progenitor	immature CD11c-low plasmacytoid dendritic cell	develops from
+CL:0001029	CL:0000840	common dendritic progenitor	immature conventional dendritic cell	develops from
+CL:0001029	CL:0002010	common dendritic progenitor	pre-conventional dendritic cell	develops from
+CL:0000051	CL:0000542	common lymphoid progenitor	lymphocyte	develops from
+CL:0000051	CL:0000826	common lymphoid progenitor	pro-B cell	develops from
+CL:0000051	CL:0000825	common lymphoid progenitor	pro-NK cell	develops from
+CL:0000051	CL:0000827	common lymphoid progenitor	pro-T cell	develops from
+CL:0000049	CL:0000763	common myeloid progenitor	myeloid cell	develops from
+CL:0000049	CL:0000766	common myeloid progenitor	myeloid leukocyte	develops from
+CL:4033084	CL:0000711	cuboidal granulosa cell	cumulus granulosa cell	develops from
+CL:4033084	CL:4033067	cuboidal granulosa cell	mural granulosa cell	develops from
+CL:0005005	CL:0000747	cyanoblast	cyanophore	develops from
+CL:0000722	CL:0000026	cystoblast	invertebrate nurse cell	develops from
+CL:4033044	CL:4030034	deuterosomal cell	respiratory tract multiciliated cell	directly develops from
+CL:0002428	CL:0002429	double-positive blast	CD69-positive double-positive thymocyte	develops from
+CL:0000809	CL:0000810	double-positive, alpha-beta thymocyte	CD4-positive, alpha-beta thymocyte	develops from
+CL:0000809	CL:0000811	double-positive, alpha-beta thymocyte	CD8-positive, alpha-beta thymocyte	develops from
+CL:0000809	CL:0000914	double-positive, alpha-beta thymocyte	immature NK T cell	develops from
+CL:0000809	CL:0000940	double-positive, alpha-beta thymocyte	mucosal-associated invariant T cell	develops from
+CL:0000809	CL:0000903	double-positive, alpha-beta thymocyte	natural T-regulatory cell	develops from
+CL:0002425	CL:0000894	early T lineage precursor	DN1 thymic pro-T cell	develops from
+CL:0000936	CL:0001025	early lymphoid progenitor	Kit-positive, Sca1-positive common lymphoid progenitor	develops from
+CL:0002046	CL:0002048	early pro-B cell	late pro-B cell	develops from
+CL:4030036	CL:4030037	early spermatid	late spermatid	develops from
+CL:0002077	CL:0007000	ecto-epithelial cell	preameloblast	develops from
+CL:0000221	CL:0002077	ectodermal cell	ecto-epithelial cell	develops from
+CL:0000905	CL:0001087	effector memory CD4-positive, alpha-beta T cell	effector memory CD4-positive, alpha-beta T cell, terminally differentiated	develops from
+CL:0000913	CL:0001062	effector memory CD8-positive, alpha-beta T cell	effector memory CD8-positive, alpha-beta T cell, terminally differentiated	develops from
+CL:0000861	CL:0002150	elicited macrophage	epithelioid macrophage	develops from
+CL:0000223	CL:0002076	endodermal cell	endo-epithelial cell	develops from
+CL:0000223	CL:0000131	endodermal cell	gut endothelial cell	develops from
+CL:0002422	CL:0000595	enucleated reticulocyte	enucleate erythrocyte	develops from
+CL:0000611	CL:0000832	eosinophil progenitor cell	eosinophilic myeloblast	develops from
+CL:0000773	CL:0000774	eosinophilic metamyelocyte	band form eosinophil	develops from
+CL:0000832	CL:0000833	eosinophilic myeloblast	eosinophilic promyelocyte	develops from
+CL:0000612	CL:0000773	eosinophilic myelocyte	eosinophilic metamyelocyte	develops from
+CL:0000833	CL:0000772	eosinophilic promyelocyte	immature eosinophil	develops from
+CL:0000464	CL:0000463	epidermoblast	epidermal cell (sensu Arthropoda)	develops from
+CL:0000038	CL:0000547	erythroid progenitor cell	proerythroblast	develops from
+CL:0008036	CL:4033063	extravillous trophoblast	endovascular extravillous trophoblast cell	develops from
+CL:0008036	CL:4033062	extravillous trophoblast	interstitial extravillous trophoblast cell	develops from
+CL:0000858	CL:0000190	fast muscle myoblast	fast muscle cell	develops from
+CL:0002353	CL:0002357	fetal liver hematopoietic progenitor cell	fetal derived definitive erythrocyte	develops from
+CL:4040003	CL:0002063	fetal pre-type II pulmonary alveolar epithelial cell	pulmonary alveolar type 2 cell	develops from
+CL:0020021	CL:4072104	fibrochondrocyte progenitor cell	fibrochondrocyte	develops from
+CL:0000441	CL:0000477	follicle stem cell (sensu Arthropoda)	follicle cell of egg chamber	develops from
+CL:0000843	CL:0000844	follicular B cell	germinal center B cell	develops from
+CL:0002045	CL:0002047	fraction A pre-pro B cell	fraction B precursor B cell	develops from
+CL:0002047	CL:0002049	fraction B precursor B cell	fraction C precursor B cell	develops from
+CL:0002049	CL:0002050	fraction C precursor B cell	fraction C' precursor B cell	develops from
+CL:0002050	CL:0002052	fraction C' precursor B cell	fraction D precursor B cell	develops from
+CL:0002052	CL:0002054	fraction D precursor B cell	fraction E immature B cell	develops from
+CL:0002054	CL:0002056	fraction E immature B cell	fraction F mature B cell	develops from
+CL:0000339	CL:0000126	glioblast (sensu Vertebrata)	macroglial cell	develops from
+CL:0000339	CL:0002453	glioblast (sensu Vertebrata)	oligodendrocyte precursor cell	develops from
+CL:0000339	CL:0000516	glioblast (sensu Vertebrata)	perineuronal satellite cell	develops from
+CL:0000557	CL:0002028	granulocyte monocyte progenitor cell	basophil mast progenitor cell	develops from
+CL:0000557	CL:0000611	granulocyte monocyte progenitor cell	eosinophil progenitor cell	develops from
+CL:0000557	CL:0002009	granulocyte monocyte progenitor cell	macrophage dendritic cell progenitor	develops from
+CL:0000557	CL:0000835	granulocyte monocyte progenitor cell	myeloblast	develops from
+CL:0000557	CL:0000834	granulocyte monocyte progenitor cell	neutrophil progenitor cell	develops from
+CL:0000501	CL:4033090	granulosa cell	atretic granulosa cell	develops from
+CL:0000501	CL:0000592	granulosa cell	large luteal cell	develops from
+CL:0002418	CL:0002361	hemangioblast	primitive erythroid progenitor	develops from
+CL:0000837	CL:0002032	hematopoietic multipotent progenitor cell	hematopoietic oligopotent progenitor cell	develops from
+CL:0002032	CL:0002031	hematopoietic oligopotent progenitor cell	hematopoietic lineage restricted progenitor cell	develops from
+CL:0000037	CL:0000837	hematopoietic stem cell	hematopoietic multipotent progenitor cell	develops from
+CL:0000037	CL:0000738	hematopoietic stem cell	leukocyte	develops from
+CL:0005026	CL:1000488	hepatoblast	cholangiocyte	develops from
+CL:0005026	CL:0000182	hepatoblast	hepatocyte	develops from
+CL:0000743	CL:0020022	hypertrophic chondrocyte	prehypertrophic chondrocyte	directly develops from
+CL:0000816	CL:0000818	immature B cell	transitional stage B cell	develops from
+CL:0000992	CL:0000993	immature CD11c-low plasmacytoid dendritic cell	mature CD11c-low plasmacytoid dendritic cell	develops from
+CL:0000994	CL:0000996	immature CD11c-negative plasmacytoid dendritic cell	mature CD11c-negative plasmacytoid dendritic cell	develops from
+CL:0002527	CL:0002528	immature CD14-positive dermal dendritic cell	mature CD14-positive dermal dendritic cell	develops from
+CL:0002533	CL:0002534	immature CD16-positive myeloid dendritic cell	mature CD16-positive myeloid dendritic cell	develops from
+CL:0001016	CL:0001017	immature CD1a-positive Langerhans cell	mature CD1a-positive Langerhans cell	develops from
+CL:0002530	CL:0002531	immature CD1a-positive dermal dendritic cell	mature CD1a-positive dermal dendritic cell	develops from
+CL:0001018	CL:0001020	immature CD8-alpha-low Langerhans cell	mature CD8-alpha-low Langerhans cell	develops from
+CL:0001001	CL:0001002	immature CD8-alpha-negative CD11b-negative dendritic cell	mature CD8-alpha-negative CD11b-negative dendritic cell	develops from
+CL:0000997	CL:0001003	immature CD8-alpha-negative CD11b-positive dendritic cell	mature CD8-alpha-negative CD11b-positive dendritic cell	develops from
+CL:0001004	CL:0001005	immature CD8-alpha-positive CD11b-negative dendritic cell	mature CD8-alpha-positive CD11b-negative dendritic cell	develops from
+CL:0000914	CL:0000814	immature NK T cell	mature NK T cell	develops from
+CL:0002039	CL:0002040	immature NK T cell stage I, mouse	immature NK T cell stage II, mouse	develops from
+CL:0002040	CL:0002041	immature NK T cell stage II, mouse	immature NK T cell stage III, mouse	develops from
+CL:0002041	CL:0002042	immature NK T cell stage III, mouse	immature NK T cell stage IV, mouse	develops from
+CL:0002377	CL:0000218	immature Schwann cell	myelinating Schwann cell	develops from
+CL:0002377	CL:0002376	immature Schwann cell	non-myelinating Schwann cell	develops from
+CL:0002408	CL:0002409	immature Vgamma2-negative thymocyte	mature Vgamma2-negative thymocyte	develops from
+CL:0002378	CL:0002403	immature Vgamma2-positive fetal thymocyte	mature Vgamma2-positive fetal thymocyte	develops from
+CL:0002406	CL:0002407	immature Vgamma2-positive thymocyte	mature Vgamma2-positive thymocyte	develops from
+CL:0000790	CL:0000791	immature alpha-beta T cell	mature alpha-beta T cell	develops from
+CL:0000840	CL:0000841	immature conventional dendritic cell	mature conventional dendritic cell	develops from
+CL:0002218	CL:0002401	immature dendritic epithelial T cell precursor	mature dendritic epithelial T cell precursor	develops from
+CL:0001009	CL:0001010	immature dermal dendritic cell	mature dermal dendritic cell	develops from
+CL:0000799	CL:0000800	immature gamma-delta T cell	mature gamma-delta T cell	develops from
+CL:0001011	CL:0001013	immature interstitial dendritic cell	mature interstitial dendritic cell	develops from
+CL:0000823	CL:0000824	immature natural killer cell	mature natural killer cell	develops from
+CL:0000805	CL:0000809	immature single positive thymocyte	double-positive, alpha-beta thymocyte	develops from
+CL:0002209	CL:0002145	intermediate epitheliocyte	multiciliated columnar cell of tracheobronchial tree	develops from
+CL:0002393	CL:0000875	intermediate monocyte	non-classical monocyte	develops from
+CL:0002250	CL:4052006	intestinal crypt stem cell	intestinal enteroendocrine progenitor	develops from
+CL:0002250	CL:0019032	intestinal crypt stem cell	intestinal tuft cell	develops from
+CL:0002250	CL:4047017	intestinal crypt stem cell	transit amplifying cell of gut	directly develops from
+CL:0009028	CL:0009027	intestinal crypt stem cell of appendix	transit amplifying cell of appendix	develops from
+CL:4052006	CL:1001516	intestinal enteroendocrine progenitor	intestinal enteroendocrine cell	directly develops from
+CL:0005001	CL:0000431	iridoblast	iridophore	develops from
+CL:0000312	CL:0002153	keratinocyte	corneocyte	develops from
+CL:0002048	CL:0002051	late pro-B cell	CD38-high pre-BCR positive cell	develops from
+CL:0005003	CL:0000571	leucoblast	leucophore	develops from
+CL:4033093	CL:0000575	limbal epithelial stem cell of cornea	corneal epithelial cell	develops into
+CL:0002034	CL:0002033	long term hematopoietic stem cell	short term hematopoietic stem cell	develops from
+CL:4033057	CL:0002325	luminal adaptive secretory precursor cell of mammary gland	lactocyte	develops from
+CL:0000235	CL:0000517	macrophage	macrophage derived foam cell	develops from
+CL:0000235	CL:0000647	macrophage	multinucleated giant cell	develops from
+CL:0002009	CL:0001029	macrophage dendritic cell progenitor	common dendritic progenitor	develops from
+CL:0002009	CL:0000040	macrophage dendritic cell progenitor	monoblast	develops from
+CL:0000831	CL:0000097	mast cell progenitor	mast cell	develops from
+CL:0000785	CL:0000980	mature B cell	plasmablast	develops from
+CL:0002436	CL:0000895	mature CD4 single-positive thymocyte	naive thymus-derived CD4-positive, alpha-beta T cell	develops from
+CL:0002437	CL:0000900	mature CD8 single-positive thymocyte	naive thymus-derived CD8-positive, alpha-beta T cell	develops from
+CL:0002401	CL:0000916	mature dendritic epithelial T cell precursor	dendritic epidermal T cell	develops from
+CL:0000556	CL:0000233	megakaryocyte	platelet	develops from
+CL:0000553	CL:0000556	megakaryocyte progenitor cell	megakaryocyte	develops from
+CL:0000050	CL:0000038	megakaryocyte-erythroid progenitor cell	erythroid progenitor cell	develops from
+CL:0000050	CL:0000553	megakaryocyte-erythroid progenitor cell	megakaryocyte progenitor cell	develops from
+CL:0000050	CL:0000828	megakaryocyte-erythroid progenitor cell	thromboblast	develops from
+CL:0000541	CL:0000148	melanoblast	melanocyte	develops from
+CL:0000134	CL:0000136	mesenchymal stem cell	adipocyte	develops from
+CL:0000134	CL:0000566	mesenchymal stem cell	angioblastic mesenchymal cell	develops from
+CL:0000134	CL:0000650	mesenchymal stem cell	mesangial cell	develops from
+CL:0000134	CL:0000383	mesenchymal stem cell	nephrogenic mesenchyme stem cell	develops from
+CL:0000134	CL:0000140	mesenchymal stem cell	odontocyte	develops from
+CL:0000134	CL:0000499	mesenchymal stem cell	stromal cell	develops from
+CL:0000222	CL:0000115	mesodermal cell	endothelial cell	develops from
+CL:0000222	CL:0002078	mesodermal cell	meso-epithelial cell	develops from
+CL:0000222	CL:0000324	mesodermal cell	metanephric mesenchyme stem cell	develops from
+CL:0000222	CL:0000129	mesodermal cell	microglial cell	develops from
+CL:0000222	CL:0000680	mesodermal cell	muscle precursor cell	develops from
+CL:0000222	CL:0007010	mesodermal cell	preosteoblast	develops from
+CL:0000077	CL:4023054	mesothelial cell	mesothelial fibroblast	develops from
+CL:0000077	CL:0002318	mesothelial cell	peripheral blood mesothelial cell	develops from
+CL:0000008	CL:0000348	migratory cranial neural crest cell	choroidal cell of the eye	develops from
+CL:0000008	CL:0000132	migratory cranial neural crest cell	corneal endothelial cell	develops from
+CL:0000008	CL:0000345	migratory cranial neural crest cell	dental papilla cell	develops from
+CL:0000008	CL:0000005	migratory cranial neural crest cell	neural crest derived fibroblast	develops from
+CL:0000008	CL:0007003	migratory cranial neural crest cell	preodontoblast	develops from
+CL:0000008	CL:0000347	migratory cranial neural crest cell	scleral cell	develops from
+CL:0000008	CL:0000027	migratory cranial neural crest cell	smooth muscle cell neural crest derived	develops from
+CL:0002607	CL:0007011	migratory enteric neural crest cell	enteric neuron	develops from
+CL:0000333	CL:0002375	migratory neural crest cell	Schwann cell precursor	develops from
+CL:0000333	CL:0000686	migratory neural crest cell	cerebrospinal fluid secreting cell	develops from
+CL:0000333	CL:0005005	migratory neural crest cell	cyanoblast	develops from
+CL:0000333	CL:0005001	migratory neural crest cell	iridoblast	develops from
+CL:0000333	CL:0005003	migratory neural crest cell	leucoblast	develops from
+CL:0000333	CL:0000541	migratory neural crest cell	melanoblast	develops from
+CL:0000333	CL:0002333	migratory neural crest cell	neural crest derived adipocyte	develops from
+CL:0000333	CL:0000005	migratory neural crest cell	neural crest derived fibroblast	develops from
+CL:0000333	CL:0002676	migratory neural crest cell	neural crest derived neuroblast	develops from
+CL:0000333	CL:0000029	migratory neural crest cell	neural crest derived neuron	develops from
+CL:0000333	CL:0000570	migratory neural crest cell	parafollicular cell	develops from
+CL:0000333	CL:0005004	migratory neural crest cell	pigment erythroblast	develops from
+CL:0000333	CL:0007010	migratory neural crest cell	preosteoblast	develops from
+CL:0000333	CL:0000027	migratory neural crest cell	smooth muscle cell neural crest derived	develops from
+CL:0000333	CL:0005002	migratory neural crest cell	xanthoblast	develops from
+CL:0000011	CL:0000336	migratory trunk neural crest cell	adrenal medulla chromaffin cell	develops from
+CL:0000040	CL:0000559	monoblast	promonocyte	develops from
+CL:0000576	CL:0000235	monocyte	macrophage	develops from
+CL:0000576	CL:0011031	monocyte	monocyte-derived dendritic cell	develops from
+CL:0000576	CL:0000092	monocyte	osteoclast	develops from
+CL:0000781	CL:0000780	mononuclear odontoclast	multinuclear odontoclast	develops from
+CL:0000778	CL:0000779	mononuclear osteoclast	multinuclear osteoclast	develops from
+CL:0000355	CL:0000515	multi-potent skeletal muscle stem cell	skeletal muscle myoblast	develops from
+CL:0000680	CL:0000187	muscle precursor cell	muscle cell	develops into
+CL:4072002	CL:4072003	myelin-forming oligodendrocyte	mature myelinating oligodendrocyte	directly develops from
+CL:0000835	CL:0000836	myeloblast	promyelocyte	develops from
+CL:0002193	CL:0002192	myelocyte	metamyelocyte	develops from
+CL:0000763	CL:0000453	myeloid cell	Langerhans cell	develops from
+CL:0000763	CL:0000782	myeloid cell	myeloid dendritic cell	develops from
+CL:0000839	CL:0000135	myeloid lineage restricted progenitor cell	circulating fibrocyte	develops from
+CL:0000056	CL:0000187	myoblast	muscle cell	develops from
+CL:0000788	CL:4033065	naive B cell	preplasmablast	develops from
+CL:0000895	CL:0000896	naive thymus-derived CD4-positive, alpha-beta T cell	activated CD4-positive, alpha-beta T cell	develops from
+CL:0000900	CL:0000906	naive thymus-derived CD8-positive, alpha-beta T cell	activated CD8-positive, alpha-beta T cell	develops from
+CL:0011012	CL:4023051	neural crest cell	vascular leptomeningeal cell	develops from
+CL:0000005	CL:0002333	neural crest derived fibroblast	neural crest derived adipocyte	develops from
+CL:0002676	CL:0000029	neural crest derived neuroblast	neural crest derived neuron	develops from
+CL:0000047	CL:0011020	neural stem cell	neural progenitor cell	develops from
+CL:0000047	CL:0002453	neural stem cell	oligodendrocyte precursor cell	develops from
+CL:0000710	CL:0000681	neurecto-epithelial cell	radial glial cell	develops from
+CL:0000133	CL:0000030	neurectodermal cell	glioblast	develops from
+CL:0000133	CL:0000047	neurectodermal cell	neural stem cell	develops from
+CL:0000133	CL:0000710	neurectodermal cell	neurecto-epithelial cell	develops from
+CL:0000133	CL:0000095	neurectodermal cell	neuron associated cell	develops from
+CL:0000133	CL:0007004	neurectodermal cell	premigratory neural crest cell	develops from
+CL:0000133	CL:0002672	neurectodermal cell	retinal progenitor cell	develops from
+CL:0000133	CL:0002243	neurectodermal cell	smooth muscle cell of sphincter of pupil	develops from
+CL:0000338	CL:0000028	neuroblast (sensu Nematoda and Protostomia)	CNS neuron (sensu Nematoda and Protostomia)	develops from
+CL:0000338	CL:0000469	neuroblast (sensu Nematoda and Protostomia)	ganglion mother cell	develops from
+CL:0000032	CL:0000854	neuroplacodal cell	interneuromast cell	develops from
+CL:0000834	CL:0000042	neutrophil progenitor cell	neutrophilic myeloblast	develops from
+CL:0000582	CL:0000560	neutrophilic metamyelocyte	band form neutrophil	develops from
+CL:0000042	CL:0000564	neutrophilic myeloblast	neutrophilic promyelocyte	develops from
+CL:0000580	CL:0000582	neutrophilic myelocyte	neutrophilic metamyelocyte	develops from
+CL:0000564	CL:0000776	neutrophilic promyelocyte	immature neutrophil	develops from
+CL:4072001	CL:4072002	newly formed oligodendrocyte	myelin-forming oligodendrocyte	directly develops from
+CL:0001040	CL:0000137	non-terminally differentiated osteoblast	osteocyte	develops from
+CL:0002421	CL:0000562	nucleated reticulocyte	nucleate erythrocyte	develops from
+CL:0002227	CL:0002226	nucleated secondary lens fiber	non-nucleated secondary lens fiber	develops from
+CL:0000060	CL:0000140	odontoblast	odontocyte	develops from
+CL:0002453	CL:4023059	oligodendrocyte precursor cell	committed oligodendrocyte precursor	develops from
+CL:0002453	CL:0000128	oligodendrocyte precursor cell	oligodendrocyte	develops from
+CL:0000023	CL:0000025	oocyte	egg cell	develops from
+CL:0000024	CL:0000654	oogonial cell	primary oocyte	develops from
+CL:0000552	CL:0000558	orthochromatic erythroblast	reticulocyte	develops from
+CL:0005004	CL:0000574	pigment erythroblast	erythrophore	develops from
+CL:0000980	CL:0000786	plasmablast	plasma cell	develops from
+CL:0000980	CL:0000970	plasmablast	unswitched memory B cell	develops from
+CL:0000550	CL:0000552	polychromatophilic erythroblast	orthochromatic erythroblast	develops from
+CL:0002010	CL:0002461	pre-conventional dendritic cell	CD103-positive dendritic cell	develops from
+CL:0002010	CL:0000999	pre-conventional dendritic cell	CD4-positive CD11b-positive dendritic cell	develops from
+CL:0002010	CL:0000998	pre-conventional dendritic cell	CD8-alpha-negative CD11b-negative dendritic cell	develops from
+CL:0002010	CL:0001000	pre-conventional dendritic cell	CD8-alpha-positive CD11b-negative dendritic cell	develops from
+CL:0002010	CL:0002462	pre-conventional dendritic cell	adipose dendritic cell	develops from
+CL:4033066	CL:0000501	pre-granulosa cell	granulosa cell	develops from
+CL:4033066	CL:4033083	pre-granulosa cell	squamous granulosa cell	directly develops from
+CL:0000937	CL:0000823	pre-natural killer cell	immature natural killer cell	develops from
+CL:4052010	CL:4052013	pre-theca cell	externa theca cell	develops from
+CL:4052010	CL:4052012	pre-theca cell	interna theca cell	develops from
+CL:4052010	CL:0000503	pre-theca cell	theca cell	develops into
+CL:0002334	CL:0000448	preadipocyte	white adipocyte	develops from
+CL:0007000	CL:0000059	preameloblast	ameloblast	develops from
+CL:0007002	CL:0000061	precementoblast	cementoblast	develops from
+CL:0007009	CL:0000058	prechondroblast	chondroblast	develops from
+CL:0007004	CL:0000333	premigratory neural crest cell	migratory neural crest cell	develops from
+CL:0007003	CL:0000060	preodontoblast	odontoblast	develops from
+CL:0007010	CL:0000062	preosteoblast	osteoblast	develops from
+CL:4033065	CL:0000980	preplasmablast	plasmablast	develops into
+CL:0002228	CL:0002225	primary lens fiber	secondary lens fiber	develops from
+CL:0000654	CL:0000655	primary oocyte	secondary oocyte	develops from
+CL:0000656	CL:0000657	primary spermatocyte	secondary spermatocyte	develops from
+CL:0002361	CL:0002355	primitive erythroid progenitor	primitive red blood cell	develops from
+CL:0002355	CL:0002356	primitive red blood cell	primitive reticulocyte	develops from
+CL:0002355	CL:0002358	primitive red blood cell	pyrenocyte	develops from
+CL:0000670	CL:0000024	primordial germ cell	oogonial cell	develops from
+CL:0000826	CL:0000945	pro-B cell	lymphocyte of B lineage	develops from
+CL:0000825	CL:0000623	pro-NK cell	natural killer cell	develops from
+CL:0000827	CL:0000084	pro-T cell	T cell	develops from
+CL:0000395	CL:0000392	procrystal cell	crystal cell	develops from
+CL:0000547	CL:0000765	proerythroblast	erythroblast	develops from
+CL:0002351	CL:0000171	progenitor cell of endocrine pancreas	pancreatic A cell	develops from
+CL:0002351	CL:0000173	progenitor cell of endocrine pancreas	pancreatic D cell	develops from
+CL:0002351	CL:0000169	progenitor cell of endocrine pancreas	type B pancreatic cell	develops from
+CL:0009116	CL:0002326	progenitor cell of mammary luminal epithelium	luminal epithelial cell of mammary gland	develops from
+CL:0000385	CL:0000387	prohemocyte (sensu Nematoda and Protostomia)	hemocyte (sensu Arthropoda)	develops from
+CL:0000559	CL:0000576	promonocyte	monocyte	develops from
+CL:0000836	CL:0002193	promyelocyte	myelocyte	develops from
+CL:0008012	CL:0008016	quiescent skeletal muscle satellite cell	activated skeletal muscle satellite cell	develops from
+CL:0000681	CL:0000065	radial glial cell	ependymal cell	directly develops from
+CL:0002633	CL:4033048	respiratory basal cell	respiratory tract suprabasal cell	develops from
+CL:0002427	CL:0002428	resting double-positive thymocyte	double-positive blast	develops from
+CL:0000558	CL:0000232	reticulocyte	erythrocyte	develops from
+CL:0002672	CL:0000573	retinal progenitor cell	retinal cone cell	develops from
+CL:0002672	CL:0000604	retinal progenitor cell	retinal rod cell	develops from
+CL:0000657	CL:0000018	secondary spermatocyte	spermatid	develops from
+CL:0000975	CL:0000974	short lived plasma cell	long lived plasma cell	develops from
+CL:0002033	CL:0002036	short term hematopoietic stem cell	Slamf1-positive multipotent progenitor cell	develops from
+CL:0000515	CL:0008002	skeletal muscle myoblast	skeletal muscle fiber	develops from
+CL:0008020	CL:0008017	skeletal muscle satellite myogenic cell	adult skeletal muscle myoblast	develops into
+CL:0000857	CL:0000189	slow muscle myoblast	slow muscle cell	develops from
+CL:0000954	CL:0000816	small pre-B-II cell	immature B cell	develops from
+CL:0000192	CL:0000892	smooth muscle cell	smooth muscle cell derived foam cell	develops from
+CL:0000514	CL:0000192	smooth muscle myoblast	smooth muscle cell	develops from
+CL:0008018	CL:0008003	somatic muscle myoblast	somatic muscle myotube	develops into
+CL:0000018	CL:0000019	spermatid	sperm	develops from
+CL:0000020	CL:0000017	spermatogonium	spermatocyte	develops from
+CL:4033083	CL:4033084	squamous granulosa cell	cuboidal granulosa cell	directly develops from
+CL:0000034	CL:0011026	stem cell	progenitor cell	develops from
+CL:0000034	CL:0009010	stem cell	transit amplifying cell	develops from
+CL:0000357	CL:0000079	stratified epithelial stem cell	stratified epithelial cell	develops from
+CL:0002255	CL:2000002	stromal cell of endometrium	decidual cell	develops from
+CL:0000114	CL:0000464	surface ectodermal cell	epidermoblast	develops from
+CL:0000114	CL:0000237	surface ectodermal cell	keratinizing barrier epithelial cell	develops from
+CL:0000114	CL:0000032	surface ectodermal cell	neuroplacodal cell	develops from
+CL:0000503	CL:4052027	theca cell	atretic theca cell	develops from
+CL:0000503	CL:0000590	theca cell	small luteal cell	develops from
+CL:0000828	CL:0000762	thromboblast	nucleated thrombocyte	develops from
+CL:0000377	CL:0000307	tracheoblast	tracheal epithelial cell	develops from
+CL:4047017	CL:0019031	transit amplifying cell of gut	intestine goblet cell	develops from
+CL:4047017	CL:0000510	transit amplifying cell of gut	paneth cell	develops from
+CL:0000818	CL:0000785	transitional stage B cell	mature B cell	develops from
+CL:1000274	CL:0000351	trophectodermal cell	trophoblast cell	develops from
+CL:0000970	CL:0000972	unswitched memory B cell	class switched memory B cell	develops from
+CL:0005022	CL:0002138	vascular lymphangioblast	endothelial cell of lymphatic vessel	develops from
+CL:0005002	CL:0000430	xanthoblast	xanthophore cell	develops from
+CL:0002354	CL:0002418	yolk sac hematopoietic stem cell	hemangioblast	develops from

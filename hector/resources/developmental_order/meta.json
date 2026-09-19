@@ -1,0 +1,18 @@
+{
+  "built": "2026-08-10",
+  "n_by_relation": {
+    "develops from": 399,
+    "develops into": 10,
+    "directly develops from": 11
+  },
+  "n_statements": 420,
+  "obo_release": "2026-06-08",
+  "obo_source": "https://github.com/obophenotype/cell-ontology/releases/download/v2026-06-08/cl.obo",
+  "relations_read": {
+    "RO:0002202": "develops from",
+    "RO:0002203": "develops into",
+    "RO:0002207": "directly develops from",
+    "RO:0002225": "develops from part of",
+    "RO:0002285": "developmentally replaces"
+  }
+}
