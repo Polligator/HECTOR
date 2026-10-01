@@ -1,0 +1,10 @@
+/* Long log output (model loading, progress bars) scrolls inside its own box
+   so it does not push the results of a cell off the screen. */
+div.cell_output div.output.stream,
+div.cell_output div.output.stderr {
+  max-height: 22em;
+  overflow-y: auto;
+}
+
+/* Figures are reduced to the page width; zoom.js links each to its full size. */
+article a.figure-zoom img { cursor: zoom-in; }
