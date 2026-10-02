@@ -28,6 +28,13 @@ public dataset it downloads itself.
 7. [The genes that change along a lineage](tutorials/07_gene_trends.ipynb) —
    which genes change along that order, and when.
 
+## Models
+
+- [Model performance](models/performance.md) — how well the human and mouse
+  models recognise each cell type they were trained on.
+- [Training composition](models/composition.md) — what each model's training
+  data was made of, one patch per cell type.
+
 ```{toctree}
 :hidden:
 :caption: Getting started
@@ -46,6 +53,14 @@ tutorials/04_ontology_simplification
 tutorials/05_IG_markers
 tutorials/06_pseudotime
 tutorials/07_gene_trends
+```
+
+```{toctree}
+:hidden:
+:caption: Models
+
+models/performance
+models/composition
 ```
 
 ```{toctree}

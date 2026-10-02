@@ -6,5 +6,47 @@ div.cell_output div.output.stderr {
   overflow-y: auto;
 }
 
-/* Figures are reduced to the page width; zoom.js links each to its full size. */
+/* Figures are reduced to the page width; site.js links each to its full size. */
 article a.figure-zoom img { cursor: zoom-in; }
+
+/* Model pages: a human/mouse switch above a frame holding the drawing. The
+   drawings keep the white ground they were made for, in both themes. */
+.model-switch {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 1rem 0 0.75rem;
+}
+.model-switch button {
+  font: inherit;
+  padding: 0.35rem 1.1rem;
+  color: var(--color-foreground-primary);
+  background: var(--color-background-primary);
+  border: 1px solid var(--color-background-border);
+  border-radius: 6px;
+  cursor: pointer;
+}
+.model-switch button[aria-pressed="true"] {
+  color: var(--color-background-primary);
+  background: var(--color-brand-primary);
+  border-color: var(--color-brand-primary);
+  font-weight: 600;
+}
+.model-switch button:focus-visible { outline: 2px solid var(--color-brand-primary); outline-offset: 2px; }
+.model-open { margin-left: auto; font-size: 0.9em; }
+@media (max-width: 40em) {
+  .model-open { display: none; }
+}
+.model-frame-box {
+  overflow: hidden;
+  background: #ffffff;
+  border: 1px solid var(--color-background-border);
+  border-radius: 4px;
+}
+.model-frame {
+  display: block;
+  width: 100%;
+  height: 40rem;
+  border: 0;
+}
