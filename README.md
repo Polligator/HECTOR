@@ -5,6 +5,8 @@ HECTOR packages the current HECTOR inference and trajectory analysis code as a P
 
 **Prefer a graphical interface?** [HECTOR Desktop](https://github.com/Polligator/HECTOR-Desktop) lets you load data, run predictions, and explore results without using the command line. Download the macOS or Windows application from its [Releases page](https://github.com/Polligator/HECTOR-Desktop/releases).
 
+**Other species?** Try [HECTOR Pro](https://github.com/Polligator/HECTOR-Pro) (experimental, multi-species).
+
 **Tutorials** are published at <https://polligator.github.io/HECTOR/>; the
 notebooks they are built from are in [`examples/`](examples/).
 
